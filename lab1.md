@@ -9,7 +9,7 @@ Why I got this output: The command `cd` requires an argument, which would specif
 
 Error: none
 
-2. An example of using the command with a path to a directory as an argument:![Image](cd_Example2.png)
+2. An example of using the command with a path to a directory as an argument:![Image](cd_Example1.png)
 
 3. An example of using the command with a path to a file as an argument:![Image](cd_Example1.png)
 
