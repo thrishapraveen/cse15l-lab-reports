@@ -98,7 +98,7 @@ en-us.txt
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was changed to `/home/lecture1/messages`.
 
-Why I got this output: The command `ls` can take an argument, which is `en-us.txt` here. The command thus gave an output of all the files and folders of the given path of `lecture1/`.
+Why I got this output: The command `ls` can take an argument, which is `en-us.txt` here. The command thus gave an output of all the files and folders of the given path, which would just be the file `en-us.txt`.
 
 Error: none 
 
