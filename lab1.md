@@ -16,15 +16,15 @@ Why I got this output: The command `cd` requires an argument, which would specif
 
 Error: none
 
-2. An example of using the command with a path to a directory as an argument:![Image](cd_Example2.png)
+2. An example of using the command with a path to a directory as an argument:
 
 ```
 [user@sahara ~]$ pwd
 /home
-[user@sahara ~]$ cd
-[user@sahara ~]$
+[user@sahara ~]$ cd lecture1/
+[user@sahara ~/lecture1]$
 [user@sahara ~]$ pwd
-/home
+/home/lecture1
 ```
 
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
