@@ -70,6 +70,20 @@ Error: none
 
 2. An example of using the command with a path to a directory as an argument:
 
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls lecture1/
+Hello.class  Hello.java  messages  README
+[user@sahara ~]$ pwd
+/home
+```
+Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
+
+Why I got this output: The command `ls` doesn't require an argument, and sicne here there is no argument, the command gave an output of all the files and folders of the working directory, which here was only the folder **lecture1**.  
+
+Error: none 
+
 3. An example of using the command with a path to a file as an argument:
 
 ## command `cat`
