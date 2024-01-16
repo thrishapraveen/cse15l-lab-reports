@@ -39,8 +39,8 @@ Error: none
 /home
 [user@sahara ~]$ cd lecture1/
 [user@sahara ~/lecture1]$ cd messages/
-[user@sahara ~/lecture1/messages]$ cd en-us.txt/
-bash: cd: en-us.txt/: Not a directory
+[user@sahara ~/lecture1/messages]$ cd en-us.txt
+bash: cd: en-us.txt: Not a directory
 [user@sahara ~/lecture1/messages]$ pwd
 /home/lecture1/messages
 ```
@@ -85,6 +85,22 @@ Why I got this output: The command `ls` can take an argument, which is `lecture1
 Error: none 
 
 3. An example of using the command with a path to a file as an argument:
+
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ cd lecture1/
+[user@sahara ~/lecture1]$ cd messages/
+[user@sahara ~/lecture1/messages]$ ls en-us.txt
+en-us.txt
+[user@sahara ~/lecture1/messages]$ pwd
+/home/lecture1/messages
+```
+Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was changed to `/home/lecture1/messages`.
+
+Why I got this output: The command `ls` can take an argument, which is `en-us.txt` here. The command thus gave an output of all the files and folders of the given path of `lecture1/`.
+
+Error: none 
 
 ## command `cat`
 1. An example of using the command with no arguments:
