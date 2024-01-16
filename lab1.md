@@ -64,7 +64,7 @@ lecture1
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
-Why I got this output: The command `ls` doesn't require an argument, and sicne here there is no argument, the command gave an output of all the files and folders of the working directory, which here was only the folder **lecture1**.  
+Why I got this output: The command `ls` doesn't require an argument, and since here there is no argument, the command gave an output of all the files and folders of the working directory, which here was only the folder **lecture1**.  
 
 Error: none 
 
@@ -74,13 +74,13 @@ Error: none
 [user@sahara ~]$ pwd
 /home
 [user@sahara ~]$ ls lecture1/
-Hello.class  Hello.java  messages  README
+Hello.class  Hello.java  **messages**  README
 [user@sahara ~]$ pwd
 /home
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
-Why I got this output: The command `ls` doesn't require an argument, and sicne here there is no argument, the command gave an output of all the files and folders of the working directory, which here was only the folder **lecture1**.  
+Why I got this output: The command `ls` can take an argument, which is `lecture1/` here. The command thus gave an output of all the files and folders of the given path of `lecture1/`.
 
 Error: none 
 
