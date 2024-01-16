@@ -24,7 +24,7 @@ Why I got this output: The command `cd` requires an argument, which is `en-us.tx
 
 QUESTION: IS THIS THE RIGHT WAY TO EXPLAIN THE OUTPUT?
 
-Error: The command `cd` requires a path to a directory as an argument, but here the argument `messages` is a path to a file, which causes an error. 
+Error: The command `cd` requires a path to a directory as an argument, but here the argument `en-us.txt` is a path to a file, which causes an error. 
 
 ## command `ls`
 1. An example of using the command with no arguments:![Image](cd_Example1.png)
