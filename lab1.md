@@ -28,7 +28,7 @@ bash: cd: en-us.txt/: Not a directory
 [user@sahara ~/lecture1/messages]$ pwd
 /home/lecture1/messages
 ```
-Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
+Working directory: Before the commands was run, `/home` was the working directory. After all the commands were run, the working directory changed to `/home/lecture1/messages`.
 
 Why I got this output: The command `cd` requires an argument, which is `en-us.txt` here. The command `cd` anyways doesn't output anything anyways, but an error is thrown. 
 
@@ -37,7 +37,10 @@ QUESTION: IS THIS THE RIGHT WAY TO EXPLAIN THE OUTPUT?
 Error: The command `cd` requires a path to a directory as an argument, but here the argument `en-us.txt` is a path to a file, which causes an error. 
 
 ## command `ls`
-1. An example of using the command with no arguments:![Image](cd_Example1.png)
+1. An example of using the command with no arguments:
+```
+
+```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
 
 Why I got this output: The command `cd` requires an argument, which is `messages` here. The command `cd` anyways doesn't output anything anyways, but an error is thrown. 
