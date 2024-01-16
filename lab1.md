@@ -105,6 +105,13 @@ Error: none
 ## command `cat`
 1. An example of using the command with no arguments:
 
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ cat
+
+```
+
 2. An example of using the command with a path to a directory as an argument:
 
 3. An example of using the command with a path to a file as an argument:
