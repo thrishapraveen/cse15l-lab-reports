@@ -74,7 +74,7 @@ Error: none
 [user@sahara ~]$ pwd
 /home
 [user@sahara ~]$ ls lecture1/
-Hello.class  Hello.java  **messages**  README
+Hello.class  Hello.java  messages  README
 [user@sahara ~]$ pwd
 /home
 ```
