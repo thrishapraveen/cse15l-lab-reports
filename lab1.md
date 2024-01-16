@@ -13,11 +13,12 @@ Error: none
 
 Working directory: Before the command was run, `\home` was the working directory. After the command was run, the working directory changed to `/home/lecture1`.
 
-Why I got this output: The command `cd` requires an argument, which is `lecture1\` here. The command `cd` anyways doesn't output anything however, but in the next line, you can see the new directory. 
+Why I got this output: The command `cd` requires an argument, which is `lecture1\` here. The command `cd` anyways doesn't output anything, but in the next line, you can see the new directory. 
 
 Error: none
 
-3. An example of using the command with a path to a file as an argument:![Image](cd_Example1.png)
+3. An example of using the command with a path to a file as an argument:![Image](cd_Example3.png)
+4. 
 
 ## command `ls`
 1. An example of using the command with no arguments:![Image](cd_Example1.png)
