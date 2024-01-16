@@ -17,7 +17,17 @@ Why I got this output: The command `cd` requires a path to a drectory as an argu
 
 Error: none
 
-3. An example of using the command with a path to a file as an argument: ![Image](cd_Example3.png)
+3. An example of using the command with a path to a file as an argument:
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ cd lecture1/
+[user@sahara ~/lecture1]$ cd messages/
+[user@sahara ~/lecture1/messages]$ cd en-us.txt/
+bash: cd: en-us.txt/: Not a directory
+[user@sahara ~/lecture1/messages]$ pwd
+/home/lecture1/messages
+```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
 
 Why I got this output: The command `cd` requires an argument, which is `en-us.txt` here. The command `cd` anyways doesn't output anything anyways, but an error is thrown. 
