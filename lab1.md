@@ -55,13 +55,16 @@ Error: The command `cd` requires a path to a directory as an argument, but here 
 ## command `ls`
 1. An example of using the command with no arguments:
 ```
-
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls
+lecture1
+[user@sahara ~]$ pwd
+/home
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
 
-Why I got this output: The command `cd` requires an argument, which is `messages` here. The command `cd` anyways doesn't output anything anyways, but an error is thrown. 
-
-QUESTION: IS THIS THE RIGHT WAY TO EXPLAIN THE OUTPUT?
+Why I got this output: The command `ls` doesn't require an argument, and sicne here there is no argument, the command gave an output of all the files and folders of the working directory, which here was only the folder **lecture1**.  
 
 Error: none 
 
