@@ -28,6 +28,13 @@ Error: The command `cd` requires a path to a directory as an argument, but here 
 
 ## command `ls`
 1. An example of using the command with no arguments:![Image](cd_Example1.png)
+Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
+
+Why I got this output: The command `cd` requires an argument, which is `messages` here. The command `cd` anyways doesn't output anything anyways, but an error is thrown. 
+
+QUESTION: IS THIS THE RIGHT WAY TO EXPLAIN THE OUTPUT?
+
+Error: none 
 
 2. An example of using the command with a path to a directory as an argument:![Image](cd_Example1.png)
 
