@@ -27,7 +27,7 @@ Error: none
 /home/lecture1
 ```
 
-Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
+Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
 Why I got this output: The command `cd` requires a path to a drectory as an argument, which is `lecture1/` here. The command `cd` anyways doesn't output anything, but in the next line, you can see the new directory since `lecture1/` is a correct path to a directory. 
 
@@ -62,19 +62,19 @@ lecture1
 [user@sahara ~]$ pwd
 /home
 ```
-Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory changed to `/home`.
+Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
 Why I got this output: The command `ls` doesn't require an argument, and sicne here there is no argument, the command gave an output of all the files and folders of the working directory, which here was only the folder **lecture1**.  
 
 Error: none 
 
-2. An example of using the command with a path to a directory as an argument:![Image](cd_Example1.png)
+2. An example of using the command with a path to a directory as an argument:
 
-3. An example of using the command with a path to a file as an argument:![Image](cd_Example1.png)
+3. An example of using the command with a path to a file as an argument:
 
 ## command `cat`
-1. An example of using the command with no arguments:![Image](cd_Example1.png)
+1. An example of using the command with no arguments:
 
-2. An example of using the command with a path to a directory as an argument:![Image](cd_Example1.png)
+2. An example of using the command with a path to a directory as an argument:
 
-3. An example of using the command with a path to a file as an argument:![Image](cd_Example1.png)
+3. An example of using the command with a path to a file as an argument:
