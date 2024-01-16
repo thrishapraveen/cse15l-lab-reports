@@ -9,6 +9,7 @@ Lab 1
 [user@sahara ~]$
 [user@sahara ~]$ pwd
 /home
+[user@sahara ~]$
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory didn't change.
 
@@ -25,6 +26,7 @@ Error: none
 [user@sahara ~/lecture1]$
 [user@sahara ~]$ pwd
 /home/lecture1
+[user@sahara ~]$
 ```
 
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
@@ -43,6 +45,7 @@ Error: none
 bash: cd: en-us.txt: Not a directory
 [user@sahara ~/lecture1/messages]$ pwd
 /home/lecture1/messages
+[user@sahara ~/lecture1/messages]$ 
 ```
 Working directory: Before the commands was run, `/home` was the working directory. After all the commands were run, the working directory changed to `/home/lecture1/messages`.
 
@@ -61,6 +64,7 @@ Error: The command `cd` requires a path to a directory as an argument, but here 
 lecture1
 [user@sahara ~]$ pwd
 /home
+[user@sahara ~]$
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
@@ -77,6 +81,7 @@ Error: none
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$ pwd
 /home
+[user@sahara ~]$
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
@@ -95,6 +100,7 @@ Error: none
 en-us.txt
 [user@sahara ~/lecture1/messages]$ pwd
 /home/lecture1/messages
+[user@sahara ~/lecture1/messages]$
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was changed to `/home/lecture1/messages`.
 
@@ -111,6 +117,11 @@ Error: none
 [user@sahara ~]$ cat
 
 ```
+Working directory: Before the command was run, `/home` was the working directory. QUESTION: whats after
+
+Why I got this output: The command `cat` needs an argument, which is not provided here
+
+Error: QUESTION
 
 2. An example of using the command with a path to a directory as an argument:
 
