@@ -2,6 +2,7 @@ Lab 1
 ---	
 ## command `cd`
 1) An example of using the command with no arguments:
+   
 ```
 [user@sahara ~]$ pwd
 /home
@@ -56,7 +57,8 @@ Why I got this output: The command `cd` requires a path to a directory as the ar
 Error: The command `cd` requires a path to a directory as an argument, but here the argument `en-us.txt` is a path to a file, which causes an error. 
 
 ## command `ls`
-1. An example of using the command with no arguments:
+1) An example of using the command with no arguments:
+
 ```
 [user@sahara ~]$ pwd
 /home
@@ -73,7 +75,7 @@ Why I got this output: The command `ls` doesn't require an argument, and since h
 
 Error: none 
 
-2. An example of using the command with a path to a directory as an argument:
+2) An example of using the command with a path to a directory as an argument:
 
 ```
 [user@sahara ~]$ pwd
@@ -91,7 +93,7 @@ Why I got this output: The command `ls` can take an argument, which is `lecture1
 
 Error: none 
 
-3. An example of using the command with a path to a file as an argument:
+3) An example of using the command with a path to a file as an argument:
 
 ```
 [user@sahara ~]$ pwd
@@ -112,7 +114,7 @@ Why I got this output: The command `ls` can take an argument, which is `en-us.tx
 Error: none 
 
 ## command `cat`
-1. An example of using the command with no arguments:
+1) An example of using the command with no arguments:
 
 ```
 [user@sahara ~]$ pwd
@@ -127,7 +129,8 @@ Why I got this output: The command `cat` needs an argument, which is not provide
 
 Error: none
 
-2. An example of using the command with a path to a directory as an argument:
+2) An example of using the command with a path to a directory as an argument:
+   
 ```
 [user@sahara ~]$ pwd
 /home
@@ -145,7 +148,8 @@ Why I got this output: The command `cat` requires one or more path to files as t
 
 Error: Since the arguments were paths to directories instead of files, two of the same error were thrown saying that `lecture1/` is a directory since the same path was given twice.
 
-3. An example of using the command with a path to a file as an argument:
+3) An example of using the command with a path to a file as an argument:
+
 ```
 [user@sahara ~]$ pwd
 /home
