@@ -11,6 +11,7 @@ Lab 1
 /home
 [user@sahara ~]$
 ```
+
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory didn't change.
 
 Why I got this output: The command `cd` requires an argument, which would specify what directory to change to, and if there's no argument, the directory can't be changed since no new directory is specified. The command `cd` anyways doesn't output anything, and in the next line's prefix, you can see that the directory hasn't changed from `/home`. 
@@ -64,6 +65,7 @@ lecture1
 /home
 [user@sahara ~]$
 ```
+
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
 Why I got this output: The command `ls` doesn't require an argument, and since here there is no argument, the command gave an output of all the files and folders of the working directory, which here was only the folder **lecture1**. The working directory doesn't change with this command.
@@ -81,6 +83,7 @@ Hello.class  Hello.java  messages  README
 /home
 [user@sahara ~]$
 ```
+
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
 Why I got this output: The command `ls` can take an argument, which is `lecture1/` here. The command thus gave an output of all the files and folders of the given path of `lecture1/`, without changing the directory as seen in the following line's prefix.
@@ -100,6 +103,7 @@ en-us.txt
 /home/lecture1/messages
 [user@sahara ~/lecture1/messages]$
 ```
+
 Working directory: Before the command `ls en-us.txt` was run, `/home/lecture1/messages` was the working directory. After the command was run, the working directory was still `/home/lecture1/messages`.
 
 Why I got this output: The command `ls` can take an argument, which is `en-us.txt` here. The command thus gave an output of all the files and folders of the given path, which would just be the file name `en-us.txt`.
