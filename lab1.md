@@ -117,12 +117,26 @@ Error: none
 [user@sahara ~]$ cat
 
 ```
-Working directory: Before the command was run, `/home` was the working directory. QUESTION: whats after
+Working directory: Before the command was run, `/home` was the working directory. After the command was run, ^D was used to stop the `cat` command from continually running and taking further commands, which caused the prefix of `[user@sahara ~]$` to show up, revealing that the working directory was still `/home`.
 
-Why I got this output: The command `cat` needs an argument, which is not provided here
+Why I got this output: The command `cat` needs an argument, which is not provided here. This causes the `cat` command to read from the terminal, which then causes the command to output back anything typed into it.
 
-Error: QUESTION
+Error: none
 
 2. An example of using the command with a path to a directory as an argument:
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ cat lecture1/ lecture1/
+cat: lecture1/: Is a directory
+cat: lecture1/: Is a directory
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$
+```
+Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
+Why I got this output: The command `cat` needs an argument, which is not provided here. This causes the `cat` command to read from the terminal, which then causes the command to output back anything typed into it.
+
+Error: none
 3. An example of using the command with a path to a file as an argument:
