@@ -104,7 +104,7 @@ en-us.txt
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was changed to `/home/lecture1/messages`.
 
-Why I got this output: The command `ls` can take an argument, which is `en-us.txt` here. The command thus gave an output of all the files and folders of the given path, which would just be the file `en-us.txt`.
+Why I got this output: The command `ls` can take an argument, which is `en-us.txt` here. The command thus gave an output of all the files and folders of the given path, which would just be the file name `en-us.txt`.
 
 Error: none 
 
@@ -136,7 +136,26 @@ cat: lecture1/: Is a directory
 ```
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
-Why I got this output: The command `cat` needs an argument, which is not provided here. This causes the `cat` command to read from the terminal, which then causes the command to output back anything typed into it.
+Why I got this output: The command `cat` requires one or more path to files as the argument, which it will then output the content of all the files in order. The argument here was `lecture1/ lecture1/`, which are the paths to directories and not files.
+
+Error: Since the arguments were paths to directories instead of files, an error was thrown saying that `lecture/` is a directory twice since the same path was given twice.
+3. An example of using the command with a path to a file as an argument:
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ cd lecture1/
+[user@sahara ~/lecture1]$ cd messages/
+[user@sahara ~/lecture1/messages]$ cat en-us.txt
+Hello World!
+[user@sahara ~/lecture1/messages]$ cat en-us.txt es-mx.txt 
+Hello World!
+¡Hola Mundo!
+[user@sahara ~/lecture1/messages]$ pwd
+/home/lecture1/messages
+[user@sahara ~/lecture1/messages]$
+```
+Working directory: Before the command was run, `/home` was the working directory. After the commands were run, the working directory was still `/home/lecture1/messages`.
+
+Why I got this output: The command `cat` requires one or more path to files as the argument, which it will then output the content of all the files in order. Here, the argument(s) were paths to files, so the `cat` command output the contents of the file(s) in the argument. 
 
 Error: none
-3. An example of using the command with a path to a file as an argument:
