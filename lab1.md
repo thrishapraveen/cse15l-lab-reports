@@ -1,7 +1,7 @@
 Lab 1
 ---	
 ## command `cd`
-1. An example of using the command with no arguments:
+1) An example of using the command with no arguments:
 ```
 [user@sahara ~]$ pwd
 /home
@@ -18,7 +18,7 @@ Why I got this output: The command `cd` requires an argument, which would specif
 
 Error: none
 
-2. An example of using the command with a path to a directory as an argument:
+2) An example of using the command with a path to a directory as an argument:
 
 ```
 [user@sahara ~]$ pwd
@@ -36,7 +36,8 @@ Why I got this output: The command `cd` requires a path to a drectory as an argu
 
 Error: none
 
-3. An example of using the command with a path to a file as an argument:
+3) An example of using the command with a path to a file as an argument:
+
 ```
 [user@sahara ~]$ pwd
 /home
@@ -119,6 +120,7 @@ Error: none
 [user@sahara ~]$ cat
 
 ```
+
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, ^D was used to stop the `cat` command from continually running and taking further commands, which caused the prefix of `[user@sahara ~]$` to show up, revealing that the working directory was still `/home`.
 
 Why I got this output: The command `cat` needs an argument, which is not provided here. This causes the `cat` command to continually read from the terminal, which then causes the command to output back anything typed into it.
@@ -136,6 +138,7 @@ cat: lecture1/: Is a directory
 /home
 [user@sahara ~]$
 ```
+
 Working directory: Before the command was run, `/home` was the working directory. After the command was run, the working directory was still `/home`.
 
 Why I got this output: The command `cat` requires one or more path to files as the argument, which it will then output the content of all the files in order. The argument here was `lecture1/ lecture1/`, which are the paths to directories and not files.
@@ -157,6 +160,7 @@ Hello World!
 /home/lecture1/messages
 [user@sahara ~/lecture1/messages]$
 ```
+
 Working directory: Before the command `cat en-us.txt es-mx.txt`was run, `/home/lecture1/messages` was the working directory. After the command was run, the working directory was still `/home/lecture1/messages`.
 
 Why I got this output: The command `cat` requires one or more path to files as the argument, which it will then output the content of all the files in order. Here, the argument(s) were paths to files, so the `cat` command output the contents of the file(s) in the argument. 
