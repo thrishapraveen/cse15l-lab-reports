@@ -3,6 +3,8 @@ Part 1
 First screenshot:
 ---------	
 
+![Image](lab2_p1_screenshot1.png)
+
 Which methods in your code are called?
 
 
@@ -15,6 +17,8 @@ How do the values of any relevant fields of the class change from this specific 
 
 Second screenshot:
 ---------	
+
+![Image](lab2_p1_screenshot2.png)
 
 Which methods in your code are called?
 
