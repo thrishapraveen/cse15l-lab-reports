@@ -43,7 +43,7 @@ A terminal interaction where you log into your ieng6 account without being asked
 
 ![Image](lab2_p2_ss3.png)
 
-* when I type in 'ssh tpraveen@ieng6.ucsd.edu' into my terminal on Visual Studio Code, it allows me to log into my ieng6 without it asking for my password. As you can see when I type in the 'ls' command, I have access to two directories/folders that are available in my remote account.
+* when I type in `ssh tpraveen@ieng6.ucsd.edu` into my terminal on Visual Studio Code, it allows me to log into my ieng6 without it asking for my password. As you can see when I type in the `ls` command, I have access to two directories/folders that are available in my remote account.
 
 Part 3
 =========	
