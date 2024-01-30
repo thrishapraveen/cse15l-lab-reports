@@ -41,7 +41,7 @@ The absolute path to the public key for your SSH key for logging into ieng6 (thi
 
 A terminal interaction where you log into your ieng6 account without being asked for a password.
 
-![Image](lab2_p1_screenshot2.png)
+![Image](lab2_p2_ss3.png)
 
 Part 3
 =========	
