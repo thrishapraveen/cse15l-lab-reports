@@ -89,9 +89,13 @@ The absolute path to the private key for your SSH key for logging into ieng6 (on
 
 ![Image](lab2_p2_ss1.png)
 
+* When setting up my SSH key for easy access during the lab section, I made a public and private key to my course-specific account. 
+
 The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
 
 ![Image](lab2_p2_ss2.png)
+
+* When setting up my SSH key for easy access during the lab section, I made a public and private key to my course-specific account. 
 
 A terminal interaction where you log into your ieng6 account without being asked for a password.
 
@@ -101,4 +105,4 @@ A terminal interaction where you log into your ieng6 account without being asked
 
 Part 3
 =========	
-Something I learned from lab in week 2 or 3 that you didn't know before:
+Something I learned from lab in week 2 or 3 that you didn't know before: I learned how the different parts of a URL each have their own function to get the right information to show on the website. Before learning what a query and a path were, URLs looked like a bunch of nonsense, but after understanding this information, I know how URLs are used in website development and how they function. Now when I'm on a website, I use what I've learned to try and break down the different parts of that website's URL to practice what I learned. 
