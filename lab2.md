@@ -51,8 +51,8 @@ First screenshot:
 ![Image](lab2_p1_screenshot1.png)
 
 Which methods in your code are called?
-* The first method that is called in my code is the main method in the `ChatServer` class, which sets up what port the web server will be running on. This is done by calling the main method of `Server.java`, which uses the port number and a new Handler object, and this new object calls the `ServerHttpHandler` method in the class, which is a new instance of `HttpHandler`. From here a new server is created in the main method.  
-* The next method that is called is the `handlerRequest` class, which is implementing the method from the interface `URLHandler`. This happens once a path and query are added to the URL is from the `ChatServer` class. 
+* The first method that is called in my code is the main method in the `ChatServer` class, which sets up what port the web server will be running on. This is done by calling the main method of `Server.java`, which uses the port number and a new Handler object, and this new object calls the `ServerHttpHandler` constructor method in the class `ServerHttpHandler`, which is a new instance of `HttpHandler`. From here a new server is created in the main method of `Server.java`.  
+* The next method that is called is the `handleRequest` method in the `Handler` class in `ChatServer`, which is implementing the method from the interface `URLHandler`. This happens once a path and query are added to the URL is from the `ChatServer` class. 
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 * For the main method of `ChatServer`, it takes the command line argument as the port number.  
