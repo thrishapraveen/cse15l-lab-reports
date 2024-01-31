@@ -14,12 +14,10 @@ class Handler implements URLHandler {
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
-            System.out.println("in first if");
             String[] parameters = url.getQuery().split("&");
             String[] messageInput = parameters[0].split("=");
             String[] userInput = parameters[1].split("=");
             if (messageInput[0].equals("s") && userInput[0].equals("user")) {
-                System.out.println("in second if");
                 String messageEntry = userInput[1] + ": " + messageInput[1] + "\n";
                 chatHistory.add(messageEntry);
             }
@@ -53,7 +51,8 @@ First screenshot:
 ![Image](lab2_p1_screenshot1.png)
 
 Which methods in your code are called?
-The first method that is called in my code is the main method in the ChatServer class, which sets up what port the server will be running on. 
+The first method that is called in my code is the main method in the ChatServer class, which sets up what port the web server will be running on. This is done by calling the main method of Server.java uses the port number and a new Handler object, and this new object calls the ServerHttpHandler method in the class, which creates a new instance of of HttpHandler. From here a new server is created in the main method.  
+The next method that is called once a path and query are added to the URL is from the ChatServer class. 
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
