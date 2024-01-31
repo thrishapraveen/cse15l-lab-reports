@@ -7,11 +7,8 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.*;
 
-
 class Handler implements URLHandler {
-
     ArrayList<String> chatHistory = new ArrayList<String>();
-
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("&");
@@ -25,7 +22,6 @@ class Handler implements URLHandler {
         else {
             return "404 Not Found!";
         }
-
         String output ="";
         for (String entryString: chatHistory) {
             output += entryString;
