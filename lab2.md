@@ -89,13 +89,13 @@ The absolute path to the private key for your SSH key for logging into ieng6 (on
 
 ![Image](lab2_p2_ss1.png)
 
-* When setting up my SSH key for easy access during the lab section, I made a public and private key to my course-specific account. 
+* When setting up my SSH key for easy access during the lab section, `ssh-keygen` made a public and private key to my course-specific account. When I'm not logged on to `ieng6`, I can type `ls /Users/thrishapraveen/.ssh/id_rsa`, which outputs my private key to my SSH as shown above as `/Users/thrishapraveen/.ssh/id_rsa`.
 
 The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
 
 ![Image](lab2_p2_ss2.png)
 
-* When setting up my SSH key for easy access during the lab section, I made a public and private key to my course-specific account. 
+* When setting up my SSH key for easy access during the lab section, `ssh-keygen` made a public and private key to my course-specific account. When I'm not logged on to `ieng6`, I can type `ls~/.ssh/authorized_keys`, which outputs my public key to my SSH as shown above as `[home/Linux/ieng6/oce/7g/tpraveen/-ssh/authorized keys`.
 
 A terminal interaction where you log into your ieng6 account without being asked for a password.
 
