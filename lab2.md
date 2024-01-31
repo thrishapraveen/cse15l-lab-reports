@@ -57,10 +57,12 @@ Which methods in your code are called?
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 * For the main method of `ChatServer`, it takes the command line argument as the port number.  
 * The main method of `Server` takes a port number and URLHandler object.
-* The `ServerHttpHandler` method of the `ServerHttpHandler` class initializes the URLHandler object that is in the argument.   
+* The `ServerHttpHandler` method of the `ServerHttpHandler` class initializes the URLHandler object that is in the argument.
+* The `handleRequest` method in `ChatServer` takes in a URL as the argument and returns a String based on the code written in the method.
+* One relevant field of the class is the `ArrayList` variable, `chatHistory`, which stores all the formatted Strings of the users and each message they've sent. 
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-
+The `ArrayList` `chatHistory` changes with this specific request since it adds the String `jpolitz: Hello` to the existing ArrayList that also holds all the previous chats sent from any specified user. 
 
 
 Second screenshot:
