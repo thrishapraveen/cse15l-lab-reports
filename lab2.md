@@ -62,8 +62,7 @@ What are the relevant arguments to those methods, and the values of any relevant
 * One relevant field of the class is the `ArrayList` variable, `chatHistory`, which stores all the formatted Strings of the users and each message they've sent. 
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-The `ArrayList` `chatHistory` changes with this specific request since it adds the String `jpolitz: Hello` to the existing ArrayList that also holds all the previous chats sent from any specified user. 
-
+The `ArrayList` `chatHistory` changes with this specific request since it adds the String `yash: How+are+you` to the existing ArrayList that also holds all the previous chats sent from any specified user, such as `jpolitz: Hello`, an example chat previously requested/sent. 
 
 Second screenshot:
 ---------	
@@ -71,13 +70,18 @@ Second screenshot:
 ![Image](lab2_p1_screenshot2.png)
 
 Which methods in your code are called?
-
+* The first method that is called in my code is the main method in the `ChatServer` class, which sets up what port the web server will be running on. This is done by calling the main method of `Server.java`, which uses the port number and a new Handler object, and this new object calls the `ServerHttpHandler` constructor method in the class `ServerHttpHandler`, which is a new instance of `HttpHandler`. From here a new server is created in the main method of `Server.java`.  
+* The next method that is called is the `handleRequest` method in the `Handler` class in `ChatServer`, which is implementing the method from the interface `URLHandler`. This happens once a path and query are added to the URL is from the `ChatServer` class. 
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-
+* For the main method of `ChatServer`, it takes the command line argument as the port number.  
+* The main method of `Server` takes a port number and URLHandler object.
+* The `ServerHttpHandler` method of the `ServerHttpHandler` class initializes the URLHandler object that is in the argument.
+* The `handleRequest` method in `ChatServer` takes in a URL as the argument and returns a String based on the code written in the method.
+* One relevant field of the class is the `ArrayList` variable, `chatHistory`, which stores all the formatted Strings of the users and each message they've sent. 
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-
+The `ArrayList` `chatHistory` changes with this specific request since it adds the String `yash: nice!` to the existing ArrayList that also holds all the previous chats sent from any specified user, such as `thrisha: Good!`, an example chat previously requested/sent. 
 
 Part 2
 =========	
