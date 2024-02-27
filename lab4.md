@@ -25,7 +25,7 @@ __Screenshot__:
 
 ![Image](lab4_step6.2.png)
 
-__Keys pressed to get to this step__: `ls <enter>`, then: `cd lab <tab> <enter>`, which gave me `lab7/`, then: `bash test.sh <enter>`
+__Keys pressed to get to this step__: `ls <enter>`, then: `cd lab <tab>`, which gave me `lab7/`, then: `<enter>`, then: `bash test.sh <enter>`
 
 __Summary of commands and effect of keypresses__: The `ls` command helps me see where I am in the directory. The output being the `lab7` directory prompted me to `cd` into that directory to run the bash script. I then ran the bash script that compiles the relevant files and runs the test file using the `bash` command on the `test.sh` file. This will allow me to see whether the tests failed or not. As seen in the screenshot, one of the tests that was in the `ListExamplesTests` file failed, which was expected. Looking at the output further, we can see that it was the second test.
 
