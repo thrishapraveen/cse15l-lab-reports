@@ -29,7 +29,15 @@ Summary of command and effect of keypresses: The `ls` command helps me see where
 Step 7:
 
 Screenshot:
-Keys pressed to get to this step:
+Keys pressed to get to this step: 
+vim ListE `<tab>`, which gave me vim ListExamples, then I typed .java
+i to get into insert mode
+`<down>` 43 times to get cursor to the line 43 that says `index1+=1` in the while loop that checks if index2 is less than list2.size()
+`<right>` 12 times to get cursor to space after index1
+`<delete>` to delete 1 from index1
+2 to change it to say index2
+`<shift> wq! <enter>` which saved the changes and quit vim
+
 Summary of command and effect of keypresses:
 
 Step 8:
