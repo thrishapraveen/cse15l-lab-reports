@@ -28,7 +28,8 @@ Summary of commands and effect of keypresses: The `ls` command helps me see wher
 
 Step 7:
 
-Screenshot:
+Screenshot: This screenshot shows how `ListExamples.java` looks after the edit was made.
+![Image](lab4_step7.png)
 Keys pressed to get to this step: 
 vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`
 `i` to switch to insert mode
