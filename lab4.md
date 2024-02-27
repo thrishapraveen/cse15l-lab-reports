@@ -1,4 +1,5 @@
 Step 4:
+---------	
 
 Screenshot: ![Image](lab4_step4.png)
 
@@ -7,6 +8,7 @@ Keys pressed to get to this step: `ssh tpraveen@ieng6-201.ucsd.edu <enter>`, the
 Summary of commands and effect of keypresses: These steps allowed me to log into my ieng6 machine (without a passcode) and work on a specific course. 
 
 Step 5:
+---------	
 
 Screenshot: ![Image](lab4_step5.png)
 
@@ -15,6 +17,7 @@ Keys pressed to get to this step: `git clone git@github.com:thrishapraveen/lab7.
 Summary of commands and effect of keypresses: Since my SSH key is connected to my GitHub account, I can clone the repository I forked to my GitHub to my ieng6 machine using `git clone` on the SSH key from GitHub for the repo of interest. This will allow me to make changes to the cloned directory from the command line. 
 
 Step 6:
+---------	
 
 Screenshot: 
 
@@ -27,6 +30,7 @@ Keys pressed to get to this step: `ls <enter>`, then: `cd lab <tab> <enter>`, wh
 Summary of commands and effect of keypresses: The `ls` command helps me see where I am in the directory. The output being the `lab7` directory prompted me to `cd` into that directory to run the bash script. I then ran the bash script that compiles the relevant files and runs the test file using the `bash` command on the `test.sh` file. This will allow me to see whether the tests failed or not. As seen in the screenshot, one of the tests that was in the `ListExamplesTests` file failed, which was expected. Looking at the output further, we can see that it was the second test.
 
 Step 7:
+---------	
 
 Screenshot: This screenshot shows how `ListExamples.java` looks after the edit was made.
 
@@ -44,6 +48,7 @@ vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`
 Summary of commands and effect of keypresses: Using just my keyboard and no mouse, I could edit the file using vim to allow the `ListExamples` java file to pass all the tests written in `ListExamplestests.java`. I was then able to save my edits and quit out of vim to go back to the terminal. 
 
 Step 8:
+---------	
 
 Screenshot: 
 ![Image](lab4_step8.png)
@@ -53,6 +58,7 @@ Keys pressed to get to this step: `bash test.sh <enter>`
 Summary of command and effect of keypresses: I ran the tests again by running the bash script (`test.sh`) with the `bash` command, and the output in the terminal shows that now both tests passed after the edit was made through vim.
 
 Step 9:
+---------	
 
 Screenshot:
 ![Image](lab4_step9.png)
