@@ -29,7 +29,9 @@ Summary of commands and effect of keypresses: The `ls` command helps me see wher
 Step 7:
 
 Screenshot: This screenshot shows how `ListExamples.java` looks after the edit was made.
+
 ![Image](lab4_step7.png)
+
 Keys pressed to get to this step: 
 vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`
 `i` to switch to insert mode
@@ -43,12 +45,18 @@ Summary of commands and effect of keypresses: Using just my keyboard and no mous
 
 Step 8:
 
-Screenshot: ![Image](lab4_step8.png)
-Keys pressed to get to this step:
-Summary of command and effect of keypresses:
+Screenshot: 
+![Image](lab4_step8.png)
+
+Keys pressed to get to this step: `bash test.sh <enter>`
+
+Summary of command and effect of keypresses: I ran the tests again by running the bash script (`test.sh`) with the `bash` command, and the output in the terminal shows that now both tests passed after the edit was made through vim.
 
 Step 9:
 
 Screenshot:
+![Image](lab4_step9.png)
+
 Keys pressed to get to this step:
+
 Summary of command and effect of keypresses:
