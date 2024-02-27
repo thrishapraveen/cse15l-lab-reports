@@ -57,6 +57,4 @@ Step 9:
 Screenshot:
 ![Image](lab4_step9.png)
 
-Keys pressed to get to this step:
-
-Summary of command and effect of keypresses:
+Keys pressed to get to this step + summary/effect: `git all <enter>` added the changes made to the file to the repository. I used `git status <enter>` to check what changes needed to be committed. `git commit -m "Edited ListExamples.java" <enter>` committed (or saved) the changes made with a comment specifying what happened. `git push <enter>` shares the changes to the remote repository made so that other developers can see what was changed. 
