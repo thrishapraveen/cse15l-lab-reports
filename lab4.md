@@ -19,24 +19,24 @@ __Summary of commands and effect of keypresses__: Since my SSH key is connected 
 Step 6:
 ---------	
 
-Screenshot: 
+__Screenshot__: 
 
 ![Image](lab4_step6.1.png)
 
 ![Image](lab4_step6.2.png)
 
-Keys pressed to get to this step: `ls <enter>`, then: `cd lab <tab> <enter>`, which gave me `lab7/`, then: `bash test.sh <enter>`
+__Keys pressed to get to this step__: `ls <enter>`, then: `cd lab <tab> <enter>`, which gave me `lab7/`, then: `bash test.sh <enter>`
 
-Summary of commands and effect of keypresses: The `ls` command helps me see where I am in the directory. The output being the `lab7` directory prompted me to `cd` into that directory to run the bash script. I then ran the bash script that compiles the relevant files and runs the test file using the `bash` command on the `test.sh` file. This will allow me to see whether the tests failed or not. As seen in the screenshot, one of the tests that was in the `ListExamplesTests` file failed, which was expected. Looking at the output further, we can see that it was the second test.
+__Summary of commands and effect of keypresses__: The `ls` command helps me see where I am in the directory. The output being the `lab7` directory prompted me to `cd` into that directory to run the bash script. I then ran the bash script that compiles the relevant files and runs the test file using the `bash` command on the `test.sh` file. This will allow me to see whether the tests failed or not. As seen in the screenshot, one of the tests that was in the `ListExamplesTests` file failed, which was expected. Looking at the output further, we can see that it was the second test.
 
 Step 7:
 ---------	
 
-Screenshot: This screenshot shows how `ListExamples.java` looks after the edit was made.
+__Screenshot__: This screenshot shows how `ListExamples.java` looks after the edit was made.
 
 ![Image](lab4_step7.png)
 
-Keys pressed to get to this step: 
+__Keys pressed to get to this step__: 
 vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`
 `i` to switch to insert mode
 `<down>` 43 times to get cursor to the line 43 that says `index1+=1` in the while loop that checks if `index2` is less than `list2.size()`
@@ -45,22 +45,22 @@ vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`
 `2` to change it to say index2
 `<shift> wq! <enter>` which saved the changes and quit vim
 
-Summary of commands and effect of keypresses: Using just my keyboard and no mouse, I could edit the file using vim to allow the `ListExamples` java file to pass all the tests written in `ListExamplestests.java`. I was then able to save my edits and quit out of vim to go back to the terminal. 
+__Summary of commands and effect of keypresses__: Using just my keyboard and no mouse, I could edit the file using vim to allow the `ListExamples` java file to pass all the tests written in `ListExamplestests.java`. I was then able to save my edits and quit out of vim to go back to the terminal. 
 
 Step 8:
 ---------	
 
-Screenshot: 
+__Screenshot__: 
 ![Image](lab4_step8.png)
 
-Keys pressed to get to this step: `bash test.sh <enter>`
+__Keys pressed to get to this step__: `bash test.sh <enter>`
 
-Summary of command and effect of keypresses: I ran the tests again by running the bash script (`test.sh`) with the `bash` command, and the output in the terminal shows that now both tests passed after the edit was made through vim.
+__Summary of command and effect of keypresses__: I ran the tests again by running the bash script (`test.sh`) with the `bash` command, and the output in the terminal shows that now both tests passed after the edit was made through vim.
 
 Step 9:
 ---------	
 
-Screenshot:
+__Screenshot__:
 ![Image](lab4_step9.png)
 
-Keys pressed to get to this step + summary/effect: `git all <enter>` added the changes made to the file to the repository. I used `git status <enter>` to check what changes needed to be committed. `git commit -m "Edited ListExamples.java" <enter>` committed (or saved) the changes made with a comment specifying what happened. `git push <enter>` shares the changes to the remote repository made so that other developers can see what was changed. 
+__Keys pressed to get to this step + summary/effect__: `git all <enter>` added the changes made to the file to the repository. I used `git status <enter>` to check what changes needed to be committed. `git commit -m "Edited ListExamples.java" <enter>` committed (or saved) the changes made with a comment specifying what happened. `git push <enter>` shares the changes to the remote repository made so that other developers can see what was changed. 
