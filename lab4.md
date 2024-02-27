@@ -37,13 +37,19 @@ __Screenshot__: This screenshot shows how `ListExamples.java` looks after the ed
 ![Image](lab4_step7.png)
 
 __Keys pressed to get to this step__: 
-vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`
-`i` to switch to insert mode
-`<down>` 43 times to get cursor to the line 43 that says `index1+=1` in the while loop that checks if `index2` is less than `list2.size()`
-`<right>` 12 times to get cursor to space after `index1`
-`<delete>` to delete 1 from `index1`
-`2` to change it to say index2
-`<shift> wq! <enter>` which saved the changes and quit vim
+vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`.
+
+`i` to switch to insert mode.
+
+`<down>` 43 times to get cursor to the line 43 that says `index1+=1` in the while loop that checks if `index2` is less than `list2.size()`.
+
+`<right>` 12 times to get cursor to space after `index1`.
+
+`<delete>` to delete 1 from `index1`.
+
+`2` to change it to say index2.
+
+`<shift> wq! <enter>` which saved the changes and quit vim.
 
 __Summary of commands and effect of keypresses__: Using just my keyboard and no mouse, I could edit the file using vim to allow the `ListExamples` java file to pass all the tests written in `ListExamplestests.java`. I was then able to save my edits and quit out of vim to go back to the terminal. 
 
