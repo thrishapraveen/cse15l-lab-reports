@@ -45,13 +45,13 @@ vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`.
 
 `<right>` 12 times to get cursor to space after `index1`.
 
-`<delete>` to delete 1 from `index1`.
+`<delete>` to delete `1` from `index1`.
 
-`2` to change it to say index2.
+`2` to change the variable name to be index2 instead of index1.
 
-`<shift> wq! <enter>` which saved the changes and quit vim.
+`<shift> :wq! <enter>` which saved the changes and quit vim.
 
-__Summary of commands and effect of keypresses__: Using just my keyboard and no mouse, I could edit the file using vim to allow the `ListExamples` java file to pass all the tests written in `ListExamplestests.java`. I was then able to save my edits and quit out of vim to go back to the terminal. 
+__Summary of commands and effect of keypresses__: Using just my keyboard and no mouse, I could edit the file using vim to allow the `ListExamples.java` file to pass all the tests written in `ListExamplestests.java`. I was then able to save my edits and quit out of vim to go back to the terminal. 
 
 Step 8:
 ---------	
@@ -61,7 +61,7 @@ __Screenshot__:
 
 __Keys pressed to get to this step__: `bash test.sh <enter>`
 
-__Summary of command and effect of keypresses__: I ran the tests again by running the bash script (`test.sh`) with the `bash` command, and the output in the terminal shows that now both tests passed after the edit was made through vim.
+__Summary of command and effect of keypresses__: I ran the tests again by running the bash script (`test.sh`) using the `bash` command, and the output in the terminal shows that, now, both tests passed after the edit was made via the vim command from step 7.
 
 Step 9:
 ---------	
