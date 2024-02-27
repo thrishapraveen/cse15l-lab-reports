@@ -37,7 +37,7 @@ __Screenshot__: This screenshot shows how `ListExamples.java` looks after the ed
 ![Image](lab4_step7.png)
 
 __Keys pressed to get to this step__: 
-vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java`.
+vim ListE `<tab>`, which gave me `vim ListExamples`, then I typed `.java <enter>`.
 
 `i` to switch to insert mode.
 
