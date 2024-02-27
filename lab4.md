@@ -12,7 +12,7 @@ Screenshot: ![Image](lab4_step5.png)
 
 Keys pressed to get to this step: git clone git@github.com:thrishapraveen/lab7.git `<enter>`
 
-Summary of command and effect of keypresses: Since my SSH key is connected to my GitHub account, I can clone the repository I forked to my GitHub to my ieng6 machine. This will allow me to make changes to the cloned directory from the command line. 
+Summary of command and effect of keypresses: Since my SSH key is connected to my GitHub account, I can clone the repository I forked to my GitHub to my ieng6 machine using `git clone` on the SSH key from GitHub for the repo of interest. This will allow me to make changes to the cloned directory from the command line. 
 
 Step 6:
 
