@@ -1,20 +1,20 @@
 Step 4:
 ---------	
 
-Screenshot: ![Image](lab4_step4.png)
+__Screenshot__: ![Image](lab4_step4.png)
 
-Keys pressed to get to this step: `ssh tpraveen@ieng6-201.ucsd.edu <enter>`, then: `cs15lwi24 <enter>`
+__Keys pressed to get to this step__: `ssh tpraveen@ieng6-201.ucsd.edu <enter>`, then: `cs15lwi24 <enter>`
 
-Summary of commands and effect of keypresses: These steps allowed me to log into my ieng6 machine (without a passcode) and work on a specific course. 
+__Summary of commands and effect of keypresses__: These steps allowed me to log into my ieng6 machine (without a passcode) and work on a specific course. 
 
 Step 5:
 ---------	
 
-Screenshot: ![Image](lab4_step5.png)
+__Screenshot__: ![Image](lab4_step5.png)
 
-Keys pressed to get to this step: `git clone git@github.com:thrishapraveen/lab7.git <enter>`
+__Keys pressed to get to this step__: `git clone git@github.com:thrishapraveen/lab7.git <enter>`
 
-Summary of commands and effect of keypresses: Since my SSH key is connected to my GitHub account, I can clone the repository I forked to my GitHub to my ieng6 machine using `git clone` on the SSH key from GitHub for the repo of interest. This will allow me to make changes to the cloned directory from the command line. 
+__Summary of commands and effect of keypresses__: Since my SSH key is connected to my GitHub account, I can clone the repository I forked to my GitHub to my ieng6 machine using `git clone` on the SSH key from GitHub for the repo of interest. This will allow me to make changes to the cloned directory from the command line. 
 
 Step 6:
 ---------	
