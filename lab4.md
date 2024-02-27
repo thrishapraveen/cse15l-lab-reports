@@ -43,7 +43,7 @@ Summary of commands and effect of keypresses: Using just my keyboard and no mous
 
 Step 8:
 
-Screenshot:
+Screenshot: ![Image](lab4_step8.png)
 Keys pressed to get to this step:
 Summary of command and effect of keypresses:
 
