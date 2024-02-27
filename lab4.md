@@ -2,7 +2,7 @@ Step 4:
 
 Screenshot: ![Image](lab4_step4.png)
 
-Keys pressed to get to this step: ssh tpraveen@ieng6-201.ucsd.edu `<enter>`, then cs15lwi24 `<enter>`
+Keys pressed to get to this step: ssh tpraveen@ieng6-201.ucsd.edu `<enter>`, then: cs15lwi24 `<enter>`
 
 Summary of command and effect of keypresses: These steps allowed me to log into my ieng6 machine (without a passcode) and work on a specific course. 
 
@@ -16,13 +16,15 @@ Summary of command and effect of keypresses: Since my SSH key is connected to my
 
 Step 6:
 
-Screenshot: ![Image](lab4_step6.1.png)
+Screenshot: 
+
+![Image](lab4_step6.1.png)
 
 ![Image](lab4_step6.2.png)
 
-Keys pressed to get to this step:
+Keys pressed to get to this step: ls `<enter>`, then: cd lab7/ `<enter>`, then: bash test.sh `<enter>`
 
-Summary of command and effect of keypresses:
+Summary of command and effect of keypresses: The `ls` command helps me see where I am in the directory. The output being the `lab7` directory prompted me to `cd` into that directory to run the bash script. I then ran the bash script that compiles the relevant files and runs the test file using the `bash` command on the `test.sh` file. This will allow me to see whether the tests failed or not. As seen in the screenshot, both tests that were in the `ListExamplesTests` file failed, as expected.
 
 Step 7:
 
